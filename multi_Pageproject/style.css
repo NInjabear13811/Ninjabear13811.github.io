@@ -1,0 +1,33 @@
+.body {
+    background-color: #e6e600;
+}
+.blue:hover {
+    
+   background-color:blue; 
+    color:white;
+}
+@keyframes wolverine-go-normal{
+    from{
+        width:800px;
+        filter:invert(100%);
+    }
+    to{width:400px;
+    filter:invert(0%);
+        
+        
+    }
+}  
+.angry-wolverine{
+ animation:wolverine-go-normal 10s forwards;   
+}
+.double + img {
+    opacity:0.5;
+    
+}
+.magneto{
+ 
+ 
+    padding:5px 5px 5px 5px;
+    border:3px solid blue;
+    
+}
